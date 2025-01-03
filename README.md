@@ -6,7 +6,7 @@ My personal journey in D3.
 
 ## Biography
 
-I am Benjamin Barlow, a multi-faceted tech nerd living in Madison, Wisconsin. I have a wide variety of skills and hobbies ranging from photography to web development. My favorite pastime has been (and probably always will be) theatre. During the four-and-a-half years I spent studying Mathematics at UW-Platteville, I participated in 20 productions. That’s almost one production every 80 days for 54 straight months—putting a math degree to good use!
+I am Benjamin Barlow, a multi-faceted tech nerd living in Madison, Wisconsin. I have a wide variety of skills and hobbies ranging from photography to web development. My favorite pastime has been (and probably always will be) theatre. During the four-and-a-half years I spent studying Mathematics at UW-Platteville, I participated in 20 productions. That’s almost one production every 80 days for 54 straight months (that's putting a math degree to good use!)
 
 My real-life superpower is the ability to visualize relational data manipulation in my head. Essentially, it’s instinctively easy for me to understand, query, and plan/model relational data.
 
@@ -14,7 +14,7 @@ For more information, visit [benjaminbarlow.com](http://benjaminbarlow.com/) or 
 
 ## d3_projects Structure
 
-Each folder is an individual D3 project named according to the functionality being explored. Each D3 project will have an `index.html` file and a `d3.js` file. Often, it will also include a `data` folder containing the CSV file(s) used in the `d3.js` file.
+Each folder is an individual D3 project named according to the functionality being explored. Each D3 project will have an `index.html` file and a `d3.js` file. Often, it will also include a `data` folder containing the CSV file(s) used in the `d3.js` file. Maybe I'll get fancy at some point and start adding a CSS file.
 
 ## Goals for the Project
 
@@ -40,7 +40,7 @@ My primary hardware for this project will likely be my web development rig. It�
 - Thorium Browser
 - GitHub
 
-After distro-hopping (*including Ubuntu, Zorin, Arch, Fedora, etc.*), I’ve settled on Debian and GNOME as my daily driver Linux environment. I also use Pop!\_OS with the Cosmic DE on my laptop and am becoming a fan. I’m considering making Cosmic DE my daily driver once it goes stable.
+After distro-hopping (*including Ubuntu, Zorin, Arch, Fedora, etc.*), I’ve settled on Debian and GNOME as my daily driver Linux environment. I also have been experimenting with Pop!\_OS featuring the Cosmic DE dual booting on my laptop and am slowly becoming a big fan. Once the Cosmic DE goes stable, I think it may be likely it will become my daily driver.
 
 I use DDEV for web development and have been writing code with Sublime Text for a decade. Could I use a proper IDE? Of course. But K.I.S.S. :)
 
