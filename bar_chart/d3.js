@@ -12,7 +12,7 @@ var svg = d3.select("#data_viz_area")
     .attr("transform", `translate(${margin.left},${margin.top})`);
 
 // Parse the Data
-d3.csv("https://raw.githubusercontent.com/bflbarlow/data/main/data.csv").then( function(data) {
+d3.csv("https://raw.githubusercontent.com/bflbarlow/d3_projects/refs/heads/main/bar_chart/data/data.csv").then( function(data) {
 
   // sort data
   data.sort(function(b, a) {
