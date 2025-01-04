@@ -1,7 +1,5 @@
 # d3_projects
 
-> <img src="icon.png" align="right"/>
-
 My personal journey in D3.
 
 ## Biography
