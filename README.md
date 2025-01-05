@@ -38,7 +38,7 @@ My primary hardware for this project will likely be my web development rig. It�
 - Thorium Browser
 - GitHub
 
-After distro-hopping (*including Ubuntu, Zorin, Arch, Fedora, etc.*), I’ve settled on Debian and GNOME as my daily driver Linux environment. I also have been experimenting with Pop!\_OS featuring the Cosmic DE dual booting on my laptop and am slowly becoming a big fan. Once the Cosmic DE goes stable, I think it may be likely it will become my daily driver.
+After distro-hopping (*including Ubuntu, Zorin, Arch, Fedora, etc.*), I’ve settled on Debian and GNOME as my daily driver Linux environment. I also have been experimenting with Pop!\_OS featuring the Cosmic DE on my Lenovo ThinkPad T490s laptop and am slowly becoming a big fan. Once the Cosmic DE goes stable, I think it may be likely it will become my daily driver.
 
 I use DDEV for web development and have been writing code with Sublime Text for a decade. Could I use a proper IDE? Of course. But K.I.S.S. :)
 
