@@ -1,10 +1,10 @@
-#self_contained_scatter
+# self_contained_scatter
 
 One of the most frustrating pieces of developing in D3 is databinding, especially via d3.csv() or d3.json().
 
 I wanted to explore a way that a self-contained page (*all in a single html file*) could render a JSON file that has been added to it.
 
-#Instructions
+# Instructions
 
 1) Copy the index.html file locally
 2) Copy the simple.json file locally
@@ -12,7 +12,7 @@ I wanted to explore a way that a self-contained page (*all in a single html file
 4) With the "Choose File", select the simple.json file
 5) Watch the page render the data in that simple.json file
 
-#Why is this helpful
+# Why is this helpful
 
 - For quick prototyping of a single unique D3 chart
 - For quick validation against different and unique JSON files
