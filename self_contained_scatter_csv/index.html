@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D3 Test File Upload</title>
+  </head>
+  <body>
+    <h1>D3 Test File Upload</h1>
+    <p>Upload an X/Y csv file (<em>with values between 0-100</em>) and see that file rendered in a D3 scatter plot.</p>
+    <p>This will be a handy mechanism for testing.</p>
+    <p>This particular scatterplot is designed to take in csv file with X and Y values.</p>
+    <p>An example file can also be found <a href="https://github.com/bflbarlow/d3_projects/blob/main/self_contained_scatter_csv/simple.csv">in GitHub</a>.</p>
+    <br>
+    <!-- I use a background color to see entire size of the div--> 
+    <div id="data_viz_area" style="background-color: lightblue; height: 400px; width: 450px;"></div>
+    <br>
+    <input type="file" id="fileInput"/>
+    <pre id="output"></pre>
+    <script>
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const content = e.target.result;
+                    document.getElementById('output').innerText = content;
+        
+                    var margin = {top: 10, right: 40, bottom: 30, left: 30},
+                        width = 450 - margin.left - margin.right,
+                        height = 400 - margin.top - margin.bottom;
+                    
+                    var data_viz_area = d3.select("#data_viz_area")
+                      .append("svg")
+                        .attr("width", width + margin.left + margin.right)
+                        .attr("height", height + margin.top + margin.bottom)
+                      // translate this svg element to leave some margin.
+                      .append("g")
+                        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+                    
+                    // X scale and Axis
+                    var x = d3.scaleLinear()
+                        .domain([0, 100])
+                        .range([0, width]);
+                    
+                    // Y scale and Axis
+                    var y = d3.scaleLinear()
+                        .domain([0, 100])
+                        .range([height, 0]);
+                    
+                    data_viz_area
+                      .append('g')
+                      .attr("transform", "translate(0," + height + ")") // Puts the X Axis on the bottom
+                      .call(d3.axisBottom(x));
+                    
+                    data_viz_area
+                      .append('g')
+                      .call(d3.axisLeft(y));
+                    
+                    var obj = csvJSON(content);
+
+                    //var data = [ {x:10, y:20}, {x:60, y:90}, {x:80, y:50} ];
+                    
+                    //console.log(data);
+                    //console.log(content);
+                    console.log(obj);
+                    
+                    data_viz_area
+                      .selectAll("whatever")
+                      .data(obj)
+                      .enter()
+                      .append("circle")
+                        .attr("cx", function(d){ return x(d.x) })
+                        .attr("cy", function(d){ return y(d.y) })
+                        .attr("r", 7)
+                        .style("fill", "green");
+
+                    
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        function csvJSON(csv) {
+            const lines = csv.split('\r\n')
+            const result = []
+            const headers = lines[0].split(',')
+        
+            for (let i = 1; i < lines.length; i++) {        
+                if (!lines[i])
+                    continue
+                const obj = {}
+                const currentline = lines[i].split(',')
+        
+                for (let j = 0; j < headers.length; j++) {
+                    obj[headers[j]] = currentline[j]
+                }
+                result.push(obj)
+            }
+            return result
+        }
+
+    </script>
+    <script src="https://d3js.org/d3.v7.js"></script>
+  </body>
+</html>
