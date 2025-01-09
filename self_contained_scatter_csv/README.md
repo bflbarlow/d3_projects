@@ -47,3 +47,7 @@ x,y,z
   - Use the browser's inspect tool to see how it gets rendered in the DOM (HTML).
     - In each circle tag (an svg element) the r="" is an attribute giving that circle its radius.
      
+- Experiment With csv Size
+  - How many dots (records in the csv) can be rendered?
+  - What can be done to make this index.html file more efficient in processing a large csv?
+  - After removing the `console.log()`, `<pre id="output"></pre>`, and the `document.getElementById('output').innerText = content;`, I was able to render 1 million dots in the scatter plot in roughly 4 seconds.
