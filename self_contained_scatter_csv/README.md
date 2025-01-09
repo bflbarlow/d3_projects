@@ -51,3 +51,9 @@ x,y,z
   - How many dots (records in the csv) can be rendered?
   - What can be done to make this index.html file more efficient in processing a large csv?
   - After removing the `console.log()`, `<pre id="output"></pre>`, and the `document.getElementById('output').innerText = content;`, I was able to render 1 million dots in the scatter plot in roughly 4 seconds.
+
+- Use Other Columns
+  - In the simple.csv file, there is a z column.
+  - Change either the cx or cy coordinates to use the z column instead.
+    - `.attr("cx", function(d){ return x(d.z) })`
+    - `.attr("cy", function(d){ return x(d.z) })`
