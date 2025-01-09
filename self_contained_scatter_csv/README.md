@@ -57,3 +57,7 @@ x,y,z
   - Change either the cx or cy coordinates to use the z column instead.
     - `.attr("cx", function(d){ return x(d.z) })`
     - `.attr("cy", function(d){ return x(d.z) })`
+
+-  Add An Entirely New Attr
+  -  Add more `.attr()` attributes for the circle tags with new columns you add to the csv.
+  -  [Here's a list of support HTML svg attributes](https://www.geeksforgeeks.org/svg-attribute-complete-reference/).
