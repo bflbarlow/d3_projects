@@ -64,6 +64,8 @@
                     
                     //console.log(data);
                     //console.log(content);
+
+                    //console.log(content);
                     console.log(obj);
                     
                     data_viz_area
@@ -75,7 +77,6 @@
                         .attr("cy", function(d){ return y(d.y) })
                         .attr("r", 7)
                         .style("fill", "green");
-
                     
                 };
                 reader.readAsText(file);
@@ -83,7 +84,7 @@
         });
 
         function csvJSON(csv) {
-            const lines = csv.split('\r\n')
+            const lines = csv.replace(/\r/g, "").split('\n')
             const result = []
             const headers = lines[0].split(',')
         
@@ -99,7 +100,7 @@
                 result.push(obj)
             }
             return result
-        }
+        };
 
     </script>
     <script src="https://d3js.org/d3.v7.js"></script>
