@@ -29,3 +29,21 @@ x,y,z
 
 - For quick prototyping of a single unique D3 chart
 - For quick validation against different and unique csv files
+
+# Things you can do to tweak
+
+- Change Dot Colors
+  - In your csv, create a column called "color"
+  - Populate that column with [css color name](https://www.w3schools.com/css/css_colors.asp)
+  - Change the .style to be `.style("fill", function(d){ return d.color});`
+  - This will color each dot with their respective colors in the csv.
+ 
+- Change Dot Size
+  - In your csv, create a column called "size"
+  - Populate that column with values between 1 and 10
+    - 0 will essentially give the dot a "nothing" size. But play aroound with it!
+  - Change the radius .attr to be `.attr("r", function(d){ return d.size })`
+  - This will give the corresponding radius (size) for each dot from the csv.
+  - Use the browser's inspect tool to see how it gets rendered in the DOM (HTML).
+    - In each circle tag (an svg element) the r="" is an attribute giving that circle its radius.
+     
