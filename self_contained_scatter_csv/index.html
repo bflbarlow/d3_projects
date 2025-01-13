@@ -58,7 +58,7 @@
                       .append('g')
                       .call(d3.axisLeft(y));
                     
-                    var obj = csvJSON(content);
+                    var obj = d3.csvParse(content);
 
                     //var data = [ {x:10, y:20}, {x:60, y:90}, {x:80, y:50} ];
                     
@@ -82,25 +82,6 @@
                 reader.readAsText(file);
             }
         });
-
-        function csvJSON(csv) {
-            const lines = csv.replace(/\r/g, "").split('\n')
-            const result = []
-            const headers = lines[0].split(',')
-        
-            for (let i = 1; i < lines.length; i++) {        
-                if (!lines[i])
-                    continue
-                const obj = {}
-                const currentline = lines[i].split(',')
-        
-                for (let j = 0; j < headers.length; j++) {
-                    obj[headers[j]] = currentline[j]
-                }
-                result.push(obj)
-            }
-            return result
-        };
 
     </script>
     <script src="https://d3js.org/d3.v7.js"></script>
