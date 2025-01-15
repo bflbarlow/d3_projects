@@ -32,7 +32,7 @@ I have developed a mechanism that appears wholly unique in the world of D3 devel
 
 It is my hope that this journey builds experience in D3 and produces template code that can be reused for future D3 development.
 
-# Project Screenshots and Demos
+## Project Screenshots and Demos
 
 **/self_contained_treemap**
 
