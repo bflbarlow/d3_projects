@@ -20,7 +20,8 @@ It is my hope that this journey builds experience in D3 and produces template co
 
 # Project Screenshots
 
-##self_contained_treemap
+## self_contained_treemap
+
 <img src="self_contained_treemap/screenshot.png" alt="A D3 Treemap" width="300" height=auto>
 
 ## My Development Environment
