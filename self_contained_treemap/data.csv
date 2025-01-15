@@ -1,0 +1,756 @@
+parent,state_code,state,category,number,state_percentage_label,state_percentage
+"",All,All,origin,0,"",0
+origin,All,All,ABC,22536443,29.48%,0.2948
+origin,All,All,LMN,685870,0.9%,0.009
+origin,All,All,MNO,4838567,6.33%,0.0633
+origin,All,All,JKL,2917757,3.82%,0.0382
+origin,All,All,FGH,11963820,15.65%,0.1565
+origin,All,All,IJK,12884464,16.85%,0.1685
+origin,All,All,CDE,1357559,1.78%,0.0178
+origin,All,All,GHI,570171,0.75%,0.0075
+origin,All,All,EFG,3249697,4.25%,0.0425
+origin,All,All,DEF,7992753,10.45%,0.1045
+origin,All,All,BCD,2914505,3.81%,0.0381
+origin,All,All,KLM,4538043,5.94%,0.0594
+"",AK,Alaska,origin,0,"",0
+origin,AK,Alaska,JKL,3991,2.9%,0.029
+origin,AK,Alaska,BCD,10184,7.41%,0.0741
+origin,AK,Alaska,CDE,6480,4.71%,0.0471
+origin,AK,Alaska,ABC,30333,22.06%,0.2206
+origin,AK,Alaska,GHI,754,0.55%,0.0055
+origin,AK,Alaska,LMN,2481,1.8%,0.018
+origin,AK,Alaska,FGH,10122,7.36%,0.0736
+origin,AK,Alaska,MNO,20146,14.65%,0.1465
+origin,AK,Alaska,EFG,17562,12.77%,0.1277
+origin,AK,Alaska,DEF,9985,7.26%,0.0726
+origin,AK,Alaska,IJK,11166,8.12%,0.0812
+origin,AK,Alaska,KLM,14287,10.39%,0.1039
+"",AL,Alabama,origin,0,"",0
+origin,AL,Alabama,DEF,126688,11.72%,0.1172
+origin,AL,Alabama,GHI,5119,0.47%,0.0047
+origin,AL,Alabama,MNO,77351,7.16%,0.0716
+origin,AL,Alabama,IJK,205727,19.03%,0.1903
+origin,AL,Alabama,EFG,48773,4.51%,0.0451
+origin,AL,Alabama,KLM,78673,7.28%,0.0728
+origin,AL,Alabama,ABC,273999,25.35%,0.2535
+origin,AL,Alabama,CDE,14998,1.39%,0.0139
+origin,AL,Alabama,BCD,54049,5%,0.05
+origin,AL,Alabama,LMN,8078,0.75%,0.0075
+origin,AL,Alabama,JKL,30314,2.8%,0.028
+origin,AL,Alabama,FGH,157263,14.55%,0.1455
+"",AR,Arkansas,origin,0,"",0
+origin,AR,Arkansas,ABC,251951,28.36%,0.2836
+origin,AR,Arkansas,CDE,12451,1.4%,0.014
+origin,AR,Arkansas,MNO,57896,6.52%,0.0652
+origin,AR,Arkansas,IJK,156012,17.56%,0.1756
+origin,AR,Arkansas,EFG,37209,4.19%,0.0419
+origin,AR,Arkansas,BCD,35890,4.04%,0.0404
+origin,AR,Arkansas,JKL,27457,3.09%,0.0309
+origin,AR,Arkansas,FGH,128017,14.41%,0.1441
+origin,AR,Arkansas,KLM,60758,6.84%,0.0684
+origin,AR,Arkansas,GHI,4353,0.49%,0.0049
+origin,AR,Arkansas,DEF,109162,12.29%,0.1229
+origin,AR,Arkansas,LMN,7354,0.83%,0.0083
+"",AS,American Samoa,origin,0,"",0
+origin,AS,American Samoa,ABC,3,2.54%,0.0254
+origin,AS,American Samoa,MNO,4,3.39%,0.0339
+origin,AS,American Samoa,CDE,3,2.54%,0.0254
+origin,AS,American Samoa,IJK,24,20.34%,0.2034
+origin,AS,American Samoa,KLM,11,9.32%,0.0932
+origin,AS,American Samoa,FGH,57,48.31%,0.4831
+origin,AS,American Samoa,DEF,8,6.78%,0.0678
+origin,AS,American Samoa,JKL,3,2.54%,0.0254
+origin,AS,American Samoa,BCD,1,0.85%,0.0085
+origin,AS,American Samoa,GHI,4,3.39%,0.0339
+"",AZ,Arizona,origin,0,"",0
+origin,AZ,Arizona,FGH,204261,12.93%,0.1293
+origin,AZ,Arizona,LMN,14773,0.94%,0.0094
+origin,AZ,Arizona,BCD,71318,4.51%,0.0451
+origin,AZ,Arizona,MNO,99959,6.33%,0.0633
+origin,AZ,Arizona,CDE,24335,1.54%,0.0154
+origin,AZ,Arizona,ABC,509082,32.22%,0.3222
+origin,AZ,Arizona,GHI,10423,0.66%,0.0066
+origin,AZ,Arizona,KLM,97457,6.17%,0.0617
+origin,AZ,Arizona,IJK,265623,16.81%,0.1681
+origin,AZ,Arizona,EFG,76132,4.82%,0.0482
+origin,AZ,Arizona,JKL,61114,3.87%,0.0387
+origin,AZ,Arizona,DEF,145421,9.2%,0.092
+"",CA,California,origin,0,"",0
+origin,CA,California,IJK,1151797,16.6%,0.166
+origin,CA,California,BCD,231628,3.34%,0.0334
+origin,CA,California,GHI,57275,0.83%,0.0083
+origin,CA,California,CDE,125970,1.82%,0.0182
+origin,CA,California,JKL,258990,3.73%,0.0373
+origin,CA,California,DEF,757741,10.92%,0.1092
+origin,CA,California,FGH,925927,13.35%,0.1335
+origin,CA,California,KLM,372089,5.36%,0.0536
+origin,CA,California,MNO,379040,5.46%,0.0546
+origin,CA,California,LMN,75570,1.09%,0.0109
+origin,CA,California,ABC,2299269,33.14%,0.3314
+origin,CA,California,EFG,302527,4.36%,0.0436
+"",CO,Colorado,origin,0,"",0
+origin,CO,Colorado,BCD,46361,4.12%,0.0412
+origin,CO,Colorado,JKL,44355,3.94%,0.0394
+origin,CO,Colorado,EFG,51134,4.54%,0.0454
+origin,CO,Colorado,ABC,306741,27.25%,0.2725
+origin,CO,Colorado,CDE,23269,2.07%,0.0207
+origin,CO,Colorado,MNO,74479,6.62%,0.0662
+origin,CO,Colorado,LMN,12988,1.15%,0.0115
+origin,CO,Colorado,DEF,100536,8.93%,0.0893
+origin,CO,Colorado,FGH,182855,16.25%,0.1625
+origin,CO,Colorado,IJK,202522,17.99%,0.1799
+origin,CO,Colorado,KLM,71763,6.38%,0.0638
+origin,CO,Colorado,GHI,8465,0.75%,0.0075
+"",CT,Connecticut,origin,0,"",0
+origin,CT,Connecticut,FGH,84425,13.62%,0.1362
+origin,CT,Connecticut,EFG,38370,6.19%,0.0619
+origin,CT,Connecticut,IJK,97779,15.78%,0.1578
+origin,CT,Connecticut,BCD,25980,4.19%,0.0419
+origin,CT,Connecticut,KLM,43147,6.96%,0.0696
+origin,CT,Connecticut,ABC,165873,26.77%,0.2677
+origin,CT,Connecticut,MNO,52426,8.46%,0.0846
+origin,CT,Connecticut,JKL,24493,3.95%,0.0395
+origin,CT,Connecticut,CDE,16996,2.74%,0.0274
+origin,CT,Connecticut,DEF,58957,9.51%,0.0951
+origin,CT,Connecticut,GHI,4795,0.77%,0.0077
+origin,CT,Connecticut,LMN,6485,1.05%,0.0105
+"",DC,District of Columbia,origin,0,"",0
+origin,DC,District of Columbia,KLM,26988,7.33%,0.0733
+origin,DC,District of Columbia,CDE,5159,1.4%,0.014
+origin,DC,District of Columbia,ABC,129894,35.29%,0.3529
+origin,DC,District of Columbia,IJK,49659,13.49%,0.1349
+origin,DC,District of Columbia,LMN,2624,0.71%,0.0071
+origin,DC,District of Columbia,GHI,4618,1.25%,0.0125
+origin,DC,District of Columbia,EFG,9975,2.71%,0.0271
+origin,DC,District of Columbia,FGH,59067,16.05%,0.1605
+origin,DC,District of Columbia,DEF,30179,8.2%,0.082
+origin,DC,District of Columbia,JKL,20163,5.48%,0.0548
+origin,DC,District of Columbia,BCD,10507,2.85%,0.0285
+origin,DC,District of Columbia,MNO,19289,5.24%,0.0524
+"",DE,Delaware,origin,0,"",0
+origin,DE,Delaware,EFG,15673,5.46%,0.0546
+origin,DE,Delaware,DEF,29482,10.27%,0.1027
+origin,DE,Delaware,ABC,74529,25.95%,0.2595
+origin,DE,Delaware,JKL,11375,3.96%,0.0396
+origin,DE,Delaware,BCD,10023,3.49%,0.0349
+origin,DE,Delaware,IJK,48187,16.78%,0.1678
+origin,DE,Delaware,MNO,24098,8.39%,0.0839
+origin,DE,Delaware,LMN,2691,0.94%,0.0094
+origin,DE,Delaware,KLM,18441,6.42%,0.0642
+origin,DE,Delaware,GHI,2789,0.97%,0.0097
+origin,DE,Delaware,FGH,43563,15.17%,0.1517
+origin,DE,Delaware,CDE,6347,2.21%,0.0221
+"",FL,Florida,origin,0,"",0
+origin,FL,Florida,CDE,87303,1.45%,0.0145
+origin,FL,Florida,ABC,1699011,28.13%,0.2813
+origin,FL,Florida,IJK,1146857,18.99%,0.1899
+origin,FL,Florida,JKL,176527,2.92%,0.0292
+origin,FL,Florida,LMN,47356,0.78%,0.0078
+origin,FL,Florida,FGH,1065360,17.64%,0.1764
+origin,FL,Florida,MNO,318834,5.28%,0.0528
+origin,FL,Florida,BCD,210494,3.48%,0.0348
+origin,FL,Florida,GHI,49378,0.82%,0.0082
+origin,FL,Florida,KLM,305491,5.06%,0.0506
+origin,FL,Florida,EFG,204724,3.39%,0.0339
+origin,FL,Florida,DEF,729210,12.07%,0.1207
+"",FM,Federated States of Micronesia,origin,0,"",0
+origin,FM,Federated States of Micronesia,GHI,1,5.26%,0.0526
+origin,FM,Federated States of Micronesia,JKL,2,10.53%,0.1053
+origin,FM,Federated States of Micronesia,DEF,1,5.26%,0.0526
+origin,FM,Federated States of Micronesia,ABC,6,31.58%,0.3158
+origin,FM,Federated States of Micronesia,MNO,5,26.32%,0.2632
+origin,FM,Federated States of Micronesia,FGH,4,21.05%,0.2105
+"",GA,Georgia,origin,0,"",0
+origin,GA,Georgia,DEF,390603,10.29%,0.1029
+origin,GA,Georgia,LMN,26874,0.71%,0.0071
+origin,GA,Georgia,ABC,1016998,26.79%,0.2679
+origin,GA,Georgia,IJK,784175,20.66%,0.2066
+origin,GA,Georgia,JKL,102259,2.69%,0.0269
+origin,GA,Georgia,BCD,139944,3.69%,0.0369
+origin,GA,Georgia,KLM,230935,6.08%,0.0608
+origin,GA,Georgia,CDE,53514,1.41%,0.0141
+origin,GA,Georgia,MNO,216661,5.71%,0.0571
+origin,GA,Georgia,GHI,34783,0.92%,0.0092
+origin,GA,Georgia,EFG,110964,2.92%,0.0292
+origin,GA,Georgia,FGH,687771,18.12%,0.1812
+"",GU,Guam,origin,0,"",0
+origin,GU,Guam,KLM,366,11.15%,0.1115
+origin,GU,Guam,JKL,51,1.55%,0.0155
+origin,GU,Guam,CDE,33,1.01%,0.0101
+origin,GU,Guam,EFG,48,1.46%,0.0146
+origin,GU,Guam,GHI,17,0.52%,0.0052
+origin,GU,Guam,LMN,20,0.61%,0.0061
+origin,GU,Guam,ABC,985,30.01%,0.3001
+origin,GU,Guam,MNO,130,3.96%,0.0396
+origin,GU,Guam,FGH,711,21.66%,0.2166
+origin,GU,Guam,BCD,81,2.47%,0.0247
+origin,GU,Guam,DEF,216,6.58%,0.0658
+origin,GU,Guam,IJK,624,19.01%,0.1901
+"",HI,Hawaii,origin,0,"",0
+origin,HI,Hawaii,CDE,7744,3.34%,0.0334
+origin,HI,Hawaii,GHI,1297,0.56%,0.0056
+origin,HI,Hawaii,FGH,25867,11.17%,0.1117
+origin,HI,Hawaii,ABC,64251,27.74%,0.2774
+origin,HI,Hawaii,EFG,19221,8.3%,0.083
+origin,HI,Hawaii,JKL,6107,2.64%,0.0264
+origin,HI,Hawaii,BCD,6962,3.01%,0.0301
+origin,HI,Hawaii,MNO,23282,10.05%,0.1005
+origin,HI,Hawaii,IJK,29498,12.73%,0.1273
+origin,HI,Hawaii,KLM,18564,8.01%,0.0801
+origin,HI,Hawaii,LMN,2723,1.18%,0.0118
+origin,HI,Hawaii,DEF,26136,11.28%,0.1128
+"",IA,Iowa,origin,0,"",0
+origin,IA,Iowa,LMN,6660,0.92%,0.0092
+origin,IA,Iowa,KLM,51004,7.04%,0.0704
+origin,IA,Iowa,EFG,37668,5.2%,0.052
+origin,IA,Iowa,FGH,107550,14.85%,0.1485
+origin,IA,Iowa,ABC,206393,28.49%,0.2849
+origin,IA,Iowa,BCD,32686,4.51%,0.0451
+origin,IA,Iowa,DEF,73849,10.19%,0.1019
+origin,IA,Iowa,IJK,106817,14.74%,0.1474
+origin,IA,Iowa,MNO,51707,7.14%,0.0714
+origin,IA,Iowa,JKL,33463,4.62%,0.0462
+origin,IA,Iowa,GHI,3903,0.54%,0.0054
+origin,IA,Iowa,CDE,12759,1.76%,0.0176
+"",ID,Idaho,origin,0,"",0
+origin,ID,Idaho,EFG,32097,6.45%,0.0645
+origin,ID,Idaho,KLM,34972,7.03%,0.0703
+origin,ID,Idaho,BCD,18580,3.73%,0.0373
+origin,ID,Idaho,LMN,6486,1.3%,0.013
+origin,ID,Idaho,DEF,43513,8.74%,0.0874
+origin,ID,Idaho,IJK,76871,15.44%,0.1544
+origin,ID,Idaho,MNO,46923,9.43%,0.0943
+origin,ID,Idaho,GHI,3088,0.62%,0.0062
+origin,ID,Idaho,CDE,12185,2.45%,0.0245
+origin,ID,Idaho,JKL,18207,3.66%,0.0366
+origin,ID,Idaho,FGH,58232,11.7%,0.117
+origin,ID,Idaho,ABC,146625,29.46%,0.2946
+"",IL,Illinois,origin,0,"",0
+origin,IL,Illinois,JKL,89353,4.17%,0.0417
+origin,IL,Illinois,MNO,145793,6.8%,0.068
+origin,IL,Illinois,CDE,40845,1.91%,0.0191
+origin,IL,Illinois,DEF,195357,9.12%,0.0912
+origin,IL,Illinois,FGH,319780,14.92%,0.1492
+origin,IL,Illinois,EFG,100658,4.7%,0.047
+origin,IL,Illinois,GHI,19405,0.91%,0.0091
+origin,IL,Illinois,ABC,655779,30.6%,0.306
+origin,IL,Illinois,IJK,351890,16.42%,0.1642
+origin,IL,Illinois,KLM,118274,5.52%,0.0552
+origin,IL,Illinois,BCD,85997,4.01%,0.0401
+origin,IL,Illinois,LMN,19746,0.92%,0.0092
+"",IN,Indiana,origin,0,"",0
+origin,IN,Indiana,KLM,142212,5.78%,0.0578
+origin,IN,Indiana,IJK,398189,16.2%,0.162
+origin,IN,Indiana,BCD,85683,3.49%,0.0349
+origin,IN,Indiana,MNO,162072,6.59%,0.0659
+origin,IN,Indiana,JKL,105370,4.29%,0.0429
+origin,IN,Indiana,EFG,92615,3.77%,0.0377
+origin,IN,Indiana,FGH,452237,18.39%,0.1839
+origin,IN,Indiana,GHI,19065,0.78%,0.0078
+origin,IN,Indiana,LMN,22742,0.93%,0.0093
+origin,IN,Indiana,ABC,680141,27.66%,0.2766
+origin,IN,Indiana,CDE,37843,1.54%,0.0154
+origin,IN,Indiana,DEF,260398,10.59%,0.1059
+"",KS,Kansas,origin,0,"",0
+origin,KS,Kansas,JKL,28195,4.15%,0.0415
+origin,KS,Kansas,CDE,11338,1.67%,0.0167
+origin,KS,Kansas,MNO,48773,7.17%,0.0717
+origin,KS,Kansas,KLM,47857,7.04%,0.0704
+origin,KS,Kansas,IJK,92613,13.62%,0.1362
+origin,KS,Kansas,BCD,22330,3.28%,0.0328
+origin,KS,Kansas,EFG,35546,5.23%,0.0523
+origin,KS,Kansas,FGH,142572,20.97%,0.2097
+origin,KS,Kansas,GHI,3453,0.51%,0.0051
+origin,KS,Kansas,LMN,6659,0.98%,0.0098
+origin,KS,Kansas,DEF,57387,8.44%,0.0844
+origin,KS,Kansas,ABC,183319,26.96%,0.2696
+"",KY,Kentucky,origin,0,"",0
+origin,KY,Kentucky,IJK,201707,18.16%,0.1816
+origin,KY,Kentucky,KLM,83162,7.49%,0.0749
+origin,KY,Kentucky,DEF,128531,11.57%,0.1157
+origin,KY,Kentucky,JKL,49777,4.48%,0.0448
+origin,KY,Kentucky,LMN,8464,0.76%,0.0076
+origin,KY,Kentucky,EFG,46996,4.23%,0.0423
+origin,KY,Kentucky,CDE,13647,1.23%,0.0123
+origin,KY,Kentucky,BCD,48381,4.36%,0.0436
+origin,KY,Kentucky,FGH,149582,13.46%,0.1346
+origin,KY,Kentucky,MNO,67428,6.07%,0.0607
+origin,KY,Kentucky,ABC,306011,27.55%,0.2755
+origin,KY,Kentucky,GHI,7209,0.65%,0.0065
+"",LA,Louisiana,origin,0,"",0
+origin,LA,Louisiana,FGH,227355,16.93%,0.1693
+origin,LA,Louisiana,ABC,389177,28.98%,0.2898
+origin,LA,Louisiana,CDE,18579,1.38%,0.0138
+origin,LA,Louisiana,KLM,80844,6.02%,0.0602
+origin,LA,Louisiana,JKL,37853,2.82%,0.0282
+origin,LA,Louisiana,BCD,48731,3.63%,0.0363
+origin,LA,Louisiana,IJK,253825,18.9%,0.189
+origin,LA,Louisiana,MNO,86015,6.4%,0.064
+origin,LA,Louisiana,DEF,132002,9.83%,0.0983
+origin,LA,Louisiana,LMN,9907,0.74%,0.0074
+origin,LA,Louisiana,EFG,50489,3.76%,0.0376
+origin,LA,Louisiana,GHI,8178,0.61%,0.0061
+"",MA,Massachusetts,origin,0,"",0
+origin,MA,Massachusetts,DEF,130571,6.97%,0.0697
+origin,MA,Massachusetts,ABC,809830,43.21%,0.4321
+origin,MA,Massachusetts,CDE,57801,3.08%,0.0308
+origin,MA,Massachusetts,IJK,230769,12.31%,0.1231
+origin,MA,Massachusetts,EFG,94655,5.05%,0.0505
+origin,MA,Massachusetts,JKL,87955,4.69%,0.0469
+origin,MA,Massachusetts,FGH,180983,9.66%,0.0966
+origin,MA,Massachusetts,KLM,81754,4.36%,0.0436
+origin,MA,Massachusetts,MNO,116345,6.21%,0.0621
+origin,MA,Massachusetts,LMN,21509,1.15%,0.0115
+origin,MA,Massachusetts,BCD,44645,2.38%,0.0238
+origin,MA,Massachusetts,GHI,17150,0.92%,0.0092
+"",MD,Maryland,origin,0,"",0
+origin,MD,Maryland,KLM,72001,4.83%,0.0483
+origin,MD,Maryland,BCD,45360,3.04%,0.0304
+origin,MD,Maryland,MNO,93861,6.3%,0.063
+origin,MD,Maryland,EFG,56581,3.8%,0.038
+origin,MD,Maryland,IJK,220756,14.81%,0.1481
+origin,MD,Maryland,LMN,12370,0.83%,0.0083
+origin,MD,Maryland,DEF,149245,10.01%,0.1001
+origin,MD,Maryland,GHI,13392,0.9%,0.009
+origin,MD,Maryland,JKL,54777,3.68%,0.0368
+origin,MD,Maryland,CDE,33337,2.24%,0.0224
+origin,MD,Maryland,ABC,415787,27.9%,0.279
+origin,MD,Maryland,FGH,322924,21.67%,0.2167
+"",ME,Maine,origin,0,"",0
+origin,ME,Maine,DEF,29068,8.46%,0.0846
+origin,ME,Maine,EFG,26766,7.79%,0.0779
+origin,ME,Maine,KLM,21979,6.4%,0.064
+origin,ME,Maine,FGH,61449,17.89%,0.1789
+origin,ME,Maine,ABC,92424,26.91%,0.2691
+origin,ME,Maine,IJK,36502,10.63%,0.1063
+origin,ME,Maine,BCD,12239,3.56%,0.0356
+origin,ME,Maine,CDE,9284,2.7%,0.027
+origin,ME,Maine,JKL,10803,3.15%,0.0315
+origin,ME,Maine,LMN,4097,1.19%,0.0119
+origin,ME,Maine,GHI,1581,0.46%,0.0046
+origin,ME,Maine,MNO,37302,10.86%,0.1086
+"",MH,Marshall Islands,origin,0,"",0
+origin,MH,Marshall Islands,FGH,4,26.67%,0.2667
+origin,MH,Marshall Islands,EFG,9,60%,0.6
+origin,MH,Marshall Islands,ABC,1,6.67%,0.0667
+origin,MH,Marshall Islands,DEF,1,6.67%,0.0667
+"",MI,Michigan,origin,0,"",0
+origin,MI,Michigan,BCD,91183,4.53%,0.0453
+origin,MI,Michigan,ABC,584781,29.05%,0.2905
+origin,MI,Michigan,KLM,108746,5.4%,0.054
+origin,MI,Michigan,GHI,11121,0.55%,0.0055
+origin,MI,Michigan,EFG,108058,5.37%,0.0537
+origin,MI,Michigan,LMN,14349,0.71%,0.0071
+origin,MI,Michigan,FGH,291090,14.46%,0.1446
+origin,MI,Michigan,CDE,32809,1.63%,0.0163
+origin,MI,Michigan,JKL,94411,4.69%,0.0469
+origin,MI,Michigan,DEF,241464,12%,0.12
+origin,MI,Michigan,MNO,108271,5.38%,0.0538
+origin,MI,Michigan,IJK,326401,16.22%,0.1622
+"",MN,Minnesota,origin,0,"",0
+origin,MN,Minnesota,MNO,52433,6.23%,0.0623
+origin,MN,Minnesota,CDE,14192,1.69%,0.0169
+origin,MN,Minnesota,EFG,43107,5.12%,0.0512
+origin,MN,Minnesota,GHI,4797,0.57%,0.0057
+origin,MN,Minnesota,FGH,119910,14.25%,0.1425
+origin,MN,Minnesota,ABC,255059,30.31%,0.3031
+origin,MN,Minnesota,DEF,87712,10.42%,0.1042
+origin,MN,Minnesota,IJK,119241,14.17%,0.1417
+origin,MN,Minnesota,KLM,53235,6.33%,0.0633
+origin,MN,Minnesota,JKL,43623,5.18%,0.0518
+origin,MN,Minnesota,LMN,8285,0.98%,0.0098
+origin,MN,Minnesota,BCD,40030,4.76%,0.0476
+"",MO,Missouri,origin,0,"",0
+origin,MO,Missouri,ABC,515419,29.47%,0.2947
+origin,MO,Missouri,FGH,350776,20.05%,0.2005
+origin,MO,Missouri,IJK,291143,16.64%,0.1664
+origin,MO,Missouri,LMN,11270,0.64%,0.0064
+origin,MO,Missouri,DEF,160561,9.18%,0.0918
+origin,MO,Missouri,JKL,72097,4.12%,0.0412
+origin,MO,Missouri,GHI,8610,0.49%,0.0049
+origin,MO,Missouri,EFG,62084,3.55%,0.0355
+origin,MO,Missouri,KLM,96597,5.52%,0.0552
+origin,MO,Missouri,CDE,19218,1.1%,0.011
+origin,MO,Missouri,MNO,96650,5.53%,0.0553
+origin,MO,Missouri,BCD,64754,3.7%,0.037
+"",MP,Northern Mariana Islands,origin,0,"",0
+origin,MP,Northern Mariana Islands,FGH,157,31.98%,0.3198
+origin,MP,Northern Mariana Islands,CDE,2,0.41%,0.0041
+origin,MP,Northern Mariana Islands,IJK,106,21.59%,0.2159
+origin,MP,Northern Mariana Islands,GHI,6,1.22%,0.0122
+origin,MP,Northern Mariana Islands,KLM,50,10.18%,0.1018
+origin,MP,Northern Mariana Islands,BCD,5,1.02%,0.0102
+origin,MP,Northern Mariana Islands,LMN,3,0.61%,0.0061
+origin,MP,Northern Mariana Islands,EFG,4,0.81%,0.0081
+origin,MP,Northern Mariana Islands,DEF,27,5.5%,0.055
+origin,MP,Northern Mariana Islands,JKL,4,0.81%,0.0081
+origin,MP,Northern Mariana Islands,MNO,42,8.55%,0.0855
+origin,MP,Northern Mariana Islands,ABC,85,17.31%,0.1731
+"",MS,Mississippi,origin,0,"",0
+origin,MS,Mississippi,IJK,140243,19.27%,0.1927
+origin,MS,Mississippi,ABC,185253,25.46%,0.2546
+origin,MS,Mississippi,EFG,30196,4.15%,0.0415
+origin,MS,Mississippi,KLM,50617,6.96%,0.0696
+origin,MS,Mississippi,DEF,90209,12.4%,0.124
+origin,MS,Mississippi,JKL,19514,2.68%,0.0268
+origin,MS,Mississippi,FGH,114690,15.76%,0.1576
+origin,MS,Mississippi,BCD,28699,3.94%,0.0394
+origin,MS,Mississippi,MNO,48746,6.7%,0.067
+origin,MS,Mississippi,GHI,3335,0.46%,0.0046
+origin,MS,Mississippi,LMN,5403,0.74%,0.0074
+origin,MS,Mississippi,CDE,10819,1.49%,0.0149
+"",MT,Montana,origin,0,"",0
+origin,MT,Montana,EFG,21017,12.99%,0.1299
+origin,MT,Montana,LMN,3117,1.93%,0.0193
+origin,MT,Montana,KLM,20898,12.92%,0.1292
+origin,MT,Montana,GHI,826,0.51%,0.0051
+origin,MT,Montana,DEF,11024,6.81%,0.0681
+origin,MT,Montana,IJK,20245,12.51%,0.1251
+origin,MT,Montana,JKL,4476,2.77%,0.0277
+origin,MT,Montana,ABC,31618,19.54%,0.1954
+origin,MT,Montana,CDE,6644,4.11%,0.0411
+origin,MT,Montana,FGH,13196,8.16%,0.0816
+origin,MT,Montana,MNO,22863,14.13%,0.1413
+origin,MT,Montana,BCD,5854,3.62%,0.0362
+"",NC,North Carolina,origin,0,"",0
+origin,NC,North Carolina,ABC,813349,28.6%,0.286
+origin,NC,North Carolina,DEF,305835,10.76%,0.1076
+origin,NC,North Carolina,CDE,37138,1.31%,0.0131
+origin,NC,North Carolina,IJK,539718,18.98%,0.1898
+origin,NC,North Carolina,FGH,451633,15.88%,0.1588
+origin,NC,North Carolina,KLM,172713,6.07%,0.0607
+origin,NC,North Carolina,LMN,20023,0.7%,0.007
+origin,NC,North Carolina,EFG,105879,3.72%,0.0372
+origin,NC,North Carolina,GHI,16554,0.58%,0.0058
+origin,NC,North Carolina,MNO,159092,5.59%,0.0559
+origin,NC,North Carolina,BCD,117078,4.12%,0.0412
+origin,NC,North Carolina,JKL,104532,3.68%,0.0368
+"",ND,North Dakota,origin,0,"",0
+origin,ND,North Dakota,MNO,18635,12.49%,0.1249
+origin,ND,North Dakota,LMN,2808,1.88%,0.0188
+origin,ND,North Dakota,DEF,11993,8.04%,0.0804
+origin,ND,North Dakota,EFG,17751,11.9%,0.119
+origin,ND,North Dakota,IJK,17328,11.62%,0.1162
+origin,ND,North Dakota,KLM,16668,11.17%,0.1117
+origin,ND,North Dakota,JKL,6281,4.21%,0.0421
+origin,ND,North Dakota,FGH,14782,9.91%,0.0991
+origin,ND,North Dakota,BCD,5308,3.56%,0.0356
+origin,ND,North Dakota,GHI,768,0.51%,0.0051
+origin,ND,North Dakota,CDE,5655,3.79%,0.0379
+origin,ND,North Dakota,ABC,31179,20.9%,0.209
+"",NE,Nebraska,origin,0,"",0
+origin,NE,Nebraska,IJK,85588,15.37%,0.1537
+origin,NE,Nebraska,EFG,30408,5.46%,0.0546
+origin,NE,Nebraska,LMN,5634,1.01%,0.0101
+origin,NE,Nebraska,BCD,21436,3.85%,0.0385
+origin,NE,Nebraska,JKL,23601,4.24%,0.0424
+origin,NE,Nebraska,ABC,152859,27.46%,0.2746
+origin,NE,Nebraska,DEF,59436,10.68%,0.1068
+origin,NE,Nebraska,FGH,77299,13.88%,0.1388
+origin,NE,Nebraska,GHI,4102,0.74%,0.0074
+origin,NE,Nebraska,MNO,40638,7.3%,0.073
+origin,NE,Nebraska,KLM,44026,7.91%,0.0791
+origin,NE,Nebraska,CDE,11728,2.11%,0.0211
+"",NH,New Hampshire,origin,0,"",0
+origin,NH,New Hampshire,ABC,71629,26.65%,0.2665
+origin,NH,New Hampshire,LMN,3680,1.37%,0.0137
+origin,NH,New Hampshire,JKL,10348,3.85%,0.0385
+origin,NH,New Hampshire,BCD,10936,4.07%,0.0407
+origin,NH,New Hampshire,GHI,1437,0.53%,0.0053
+origin,NH,New Hampshire,MNO,33672,12.53%,0.1253
+origin,NH,New Hampshire,KLM,22950,8.54%,0.0854
+origin,NH,New Hampshire,EFG,26885,10%,0.1
+origin,NH,New Hampshire,IJK,30987,11.53%,0.1153
+origin,NH,New Hampshire,DEF,24725,9.2%,0.092
+origin,NH,New Hampshire,FGH,21712,8.08%,0.0808
+origin,NH,New Hampshire,CDE,9829,3.66%,0.0366
+"",NJ,New Jersey,origin,0,"",0
+origin,NJ,New Jersey,MNO,110758,6.46%,0.0646
+origin,NJ,New Jersey,GHI,13996,0.82%,0.0082
+origin,NJ,New Jersey,CDE,56493,3.29%,0.0329
+origin,NJ,New Jersey,LMN,17096,1%,0.01
+origin,NJ,New Jersey,KLM,83953,4.9%,0.049
+origin,NJ,New Jersey,IJK,253109,14.76%,0.1476
+origin,NJ,New Jersey,FGH,264827,15.44%,0.1544
+origin,NJ,New Jersey,JKL,58240,3.4%,0.034
+origin,NJ,New Jersey,EFG,75339,4.39%,0.0439
+origin,NJ,New Jersey,DEF,162335,9.47%,0.0947
+origin,NJ,New Jersey,ABC,562325,32.79%,0.3279
+origin,NJ,New Jersey,BCD,56250,3.28%,0.0328
+"",NM,New Mexico,origin,0,"",0
+origin,NM,New Mexico,ABC,102887,24.79%,0.2479
+origin,NM,New Mexico,KLM,41691,10.04%,0.1004
+origin,NM,New Mexico,DEF,41643,10.03%,0.1003
+origin,NM,New Mexico,FGH,44484,10.72%,0.1072
+origin,NM,New Mexico,CDE,9594,2.31%,0.0231
+origin,NM,New Mexico,GHI,2756,0.66%,0.0066
+origin,NM,New Mexico,IJK,68486,16.5%,0.165
+origin,NM,New Mexico,JKL,16237,3.91%,0.0391
+origin,NM,New Mexico,LMN,5931,1.43%,0.0143
+origin,NM,New Mexico,EFG,29261,7.05%,0.0705
+origin,NM,New Mexico,BCD,16526,3.98%,0.0398
+origin,NM,New Mexico,MNO,35547,8.56%,0.0856
+"",NV,Nevada,origin,0,"",0
+origin,NV,Nevada,IJK,107587,15.48%,0.1548
+origin,NV,Nevada,CDE,11913,1.71%,0.0171
+origin,NV,Nevada,ABC,182397,26.24%,0.2624
+origin,NV,Nevada,KLM,49532,7.13%,0.0713
+origin,NV,Nevada,EFG,36206,5.21%,0.0521
+origin,NV,Nevada,LMN,7445,1.07%,0.0107
+origin,NV,Nevada,JKL,25482,3.67%,0.0367
+origin,NV,Nevada,FGH,102390,14.73%,0.1473
+origin,NV,Nevada,MNO,47641,6.85%,0.0685
+origin,NV,Nevada,BCD,35468,5.1%,0.051
+origin,NV,Nevada,DEF,82132,11.82%,0.1182
+origin,NV,Nevada,GHI,6852,0.99%,0.0099
+"",NY,New York,origin,0,"",0
+origin,NY,New York,ABC,1007814,29.7%,0.297
+origin,NY,New York,FGH,557519,16.43%,0.1643
+origin,NY,New York,IJK,446272,13.15%,0.1315
+origin,NY,New York,DEF,471493,13.89%,0.1389
+origin,NY,New York,GHI,37332,1.1%,0.011
+origin,NY,New York,CDE,78270,2.31%,0.0231
+origin,NY,New York,LMN,35838,1.06%,0.0106
+origin,NY,New York,JKL,137370,4.05%,0.0405
+origin,NY,New York,BCD,151353,4.46%,0.0446
+origin,NY,New York,MNO,192451,5.67%,0.0567
+origin,NY,New York,KLM,154255,4.55%,0.0455
+origin,NY,New York,EFG,123642,3.64%,0.0364
+"",OH,Ohio,origin,0,"",0
+origin,OH,Ohio,DEF,282043,11.13%,0.1113
+origin,OH,Ohio,JKL,127820,5.04%,0.0504
+origin,OH,Ohio,BCD,112091,4.42%,0.0442
+origin,OH,Ohio,EFG,105808,4.17%,0.0417
+origin,OH,Ohio,IJK,416397,16.43%,0.1643
+origin,OH,Ohio,GHI,20913,0.83%,0.0083
+origin,OH,Ohio,FGH,390234,15.4%,0.154
+origin,OH,Ohio,CDE,40256,1.59%,0.0159
+origin,OH,Ohio,LMN,22898,0.9%,0.009
+origin,OH,Ohio,ABC,695126,27.43%,0.2743
+origin,OH,Ohio,KLM,159789,6.3%,0.063
+origin,OH,Ohio,MNO,161155,6.36%,0.0636
+"",OK,Oklahoma,origin,0,"",0
+origin,OK,Oklahoma,MNO,59392,5.32%,0.0532
+origin,OK,Oklahoma,FGH,155923,13.96%,0.1396
+origin,OK,Oklahoma,DEF,120964,10.83%,0.1083
+origin,OK,Oklahoma,EFG,38372,3.44%,0.0344
+origin,OK,Oklahoma,IJK,200144,17.92%,0.1792
+origin,OK,Oklahoma,GHI,5966,0.53%,0.0053
+origin,OK,Oklahoma,BCD,42391,3.8%,0.038
+origin,OK,Oklahoma,KLM,80737,7.23%,0.0723
+origin,OK,Oklahoma,JKL,43937,3.93%,0.0393
+origin,OK,Oklahoma,CDE,12841,1.15%,0.0115
+origin,OK,Oklahoma,LMN,8200,0.73%,0.0073
+origin,OK,Oklahoma,ABC,347757,31.14%,0.3114
+"",OR,Oregon,origin,0,"",0
+origin,OR,Oregon,LMN,6314,1%,0.01
+origin,OR,Oregon,DEF,56629,8.94%,0.0894
+origin,OR,Oregon,EFG,36483,5.76%,0.0576
+origin,OR,Oregon,FGH,82220,12.97%,0.1297
+origin,OR,Oregon,BCD,24927,3.93%,0.0393
+origin,OR,Oregon,CDE,10796,1.7%,0.017
+origin,OR,Oregon,KLM,58222,9.19%,0.0919
+origin,OR,Oregon,MNO,41444,6.54%,0.0654
+origin,OR,Oregon,ABC,175441,27.68%,0.2768
+origin,OR,Oregon,IJK,102719,16.21%,0.1621
+origin,OR,Oregon,JKL,34808,5.49%,0.0549
+origin,OR,Oregon,GHI,3739,0.59%,0.0059
+"",PA,Pennsylvania,origin,0,"",0
+origin,PA,Pennsylvania,KLM,147501,5.05%,0.0505
+origin,PA,Pennsylvania,ABC,918813,31.46%,0.3146
+origin,PA,Pennsylvania,DEF,307368,10.52%,0.1052
+origin,PA,Pennsylvania,JKL,130492,4.47%,0.0447
+origin,PA,Pennsylvania,MNO,171644,5.88%,0.0588
+origin,PA,Pennsylvania,FGH,482203,16.51%,0.1651
+origin,PA,Pennsylvania,GHI,20032,0.69%,0.0069
+origin,PA,Pennsylvania,CDE,44931,1.54%,0.0154
+origin,PA,Pennsylvania,LMN,23899,0.82%,0.0082
+origin,PA,Pennsylvania,EFG,115352,3.95%,0.0395
+origin,PA,Pennsylvania,BCD,106195,3.64%,0.0364
+origin,PA,Pennsylvania,IJK,452082,15.48%,0.1548
+"",PR,Puerto Rico,origin,0,"",0
+origin,PR,Puerto Rico,CDE,353,1.03%,0.0103
+origin,PR,Puerto Rico,BCD,650,1.89%,0.0189
+origin,PR,Puerto Rico,GHI,339,0.99%,0.0099
+origin,PR,Puerto Rico,DEF,2921,8.5%,0.085
+origin,PR,Puerto Rico,JKL,655,1.91%,0.0191
+origin,PR,Puerto Rico,MNO,2027,5.9%,0.059
+origin,PR,Puerto Rico,KLM,3009,8.75%,0.0875
+origin,PR,Puerto Rico,FGH,7267,21.14%,0.2114
+origin,PR,Puerto Rico,IJK,3818,11.11%,0.1111
+origin,PR,Puerto Rico,ABC,12147,35.33%,0.3533
+origin,PR,Puerto Rico,EFG,1054,3.07%,0.0307
+origin,PR,Puerto Rico,LMN,140,0.41%,0.0041
+"",PW,Palau,origin,0,"",0
+origin,PW,Palau,ABC,0,0%,0
+origin,PW,Palau,FGH,3,75%,0.75
+origin,PW,Palau,IJK,1,25%,0.25
+"",RI,Rhode Island,origin,0,"",0
+origin,RI,Rhode Island,ABC,71040,31.16%,0.3116
+origin,RI,Rhode Island,IJK,31568,13.85%,0.1385
+origin,RI,Rhode Island,JKL,11428,5.01%,0.0501
+origin,RI,Rhode Island,KLM,15584,6.84%,0.0684
+origin,RI,Rhode Island,GHI,1473,0.65%,0.0065
+origin,RI,Rhode Island,FGH,23691,10.39%,0.1039
+origin,RI,Rhode Island,LMN,2745,1.2%,0.012
+origin,RI,Rhode Island,BCD,6867,3.01%,0.0301
+origin,RI,Rhode Island,DEF,21061,9.24%,0.0924
+origin,RI,Rhode Island,CDE,7568,3.32%,0.0332
+origin,RI,Rhode Island,MNO,20193,8.86%,0.0886
+origin,RI,Rhode Island,EFG,14770,6.48%,0.0648
+"",SC,South Carolina,origin,0,"",0
+origin,SC,South Carolina,KLM,92815,6.6%,0.066
+origin,SC,South Carolina,IJK,272026,19.36%,0.1936
+origin,SC,South Carolina,FGH,220830,15.71%,0.1571
+origin,SC,South Carolina,DEF,156056,11.1%,0.111
+origin,SC,South Carolina,ABC,364513,25.94%,0.2594
+origin,SC,South Carolina,LMN,9307,0.66%,0.0066
+origin,SC,South Carolina,CDE,19615,1.4%,0.014
+origin,SC,South Carolina,BCD,65379,4.65%,0.0465
+origin,SC,South Carolina,GHI,7235,0.51%,0.0051
+origin,SC,South Carolina,MNO,93615,6.66%,0.0666
+origin,SC,South Carolina,JKL,48208,3.43%,0.0343
+origin,SC,South Carolina,EFG,55812,3.97%,0.0397
+"",SD,South Dakota,origin,0,"",0
+origin,SD,South Dakota,ABC,47513,25.84%,0.2584
+origin,SD,South Dakota,KLM,19567,10.64%,0.1064
+origin,SD,South Dakota,FGH,15667,8.52%,0.0852
+origin,SD,South Dakota,DEF,15539,8.45%,0.0845
+origin,SD,South Dakota,EFG,17975,9.78%,0.0978
+origin,SD,South Dakota,BCD,6627,3.6%,0.036
+origin,SD,South Dakota,IJK,21582,11.74%,0.1174
+origin,SD,South Dakota,JKL,7995,4.35%,0.0435
+origin,SD,South Dakota,CDE,6660,3.62%,0.0362
+origin,SD,South Dakota,LMN,2815,1.53%,0.0153
+origin,SD,South Dakota,GHI,930,0.51%,0.0051
+origin,SD,South Dakota,MNO,20998,11.42%,0.1142
+"",TN,Tennessee,origin,0,"",0
+origin,TN,Tennessee,JKL,65090,3.67%,0.0367
+origin,TN,Tennessee,MNO,123017,6.93%,0.0693
+origin,TN,Tennessee,GHI,10580,0.6%,0.006
+origin,TN,Tennessee,CDE,21947,1.24%,0.0124
+origin,TN,Tennessee,LMN,13475,0.76%,0.0076
+origin,TN,Tennessee,KLM,121884,6.87%,0.0687
+origin,TN,Tennessee,IJK,324656,18.3%,0.183
+origin,TN,Tennessee,BCD,76607,4.32%,0.0432
+origin,TN,Tennessee,EFG,76841,4.33%,0.0433
+origin,TN,Tennessee,ABC,484400,27.3%,0.273
+origin,TN,Tennessee,FGH,250605,14.12%,0.1412
+origin,TN,Tennessee,DEF,205102,11.56%,0.1156
+"",TX,Texas,origin,0,"",0
+origin,TX,Texas,DEF,779457,9.61%,0.0961
+origin,TX,Texas,BCD,292947,3.61%,0.0361
+origin,TX,Texas,GHI,62558,0.77%,0.0077
+origin,TX,Texas,EFG,234337,2.89%,0.0289
+origin,TX,Texas,CDE,117886,1.45%,0.0145
+origin,TX,Texas,JKL,283942,3.5%,0.035
+origin,TX,Texas,KLM,443445,5.47%,0.0547
+origin,TX,Texas,ABC,2368940,29.21%,0.2921
+origin,TX,Texas,IJK,1488985,18.36%,0.1836
+origin,TX,Texas,LMN,63909,0.79%,0.0079
+origin,TX,Texas,FGH,1463796,18.05%,0.1805
+origin,TX,Texas,MNO,511113,6.3%,0.063
+"",UT,Utah,origin,0,"",0
+origin,UT,Utah,LMN,6267,1.3%,0.013
+origin,UT,Utah,DEF,47334,9.84%,0.0984
+origin,UT,Utah,MNO,44557,9.26%,0.0926
+origin,UT,Utah,GHI,4213,0.88%,0.0088
+origin,UT,Utah,IJK,71203,14.8%,0.148
+origin,UT,Utah,BCD,15916,3.31%,0.0331
+origin,UT,Utah,EFG,28585,5.94%,0.0594
+origin,UT,Utah,FGH,74921,15.57%,0.1557
+origin,UT,Utah,KLM,36311,7.55%,0.0755
+origin,UT,Utah,JKL,13866,2.88%,0.0288
+origin,UT,Utah,ABC,124919,25.96%,0.2596
+origin,UT,Utah,CDE,13016,2.71%,0.0271
+"",VA,Virginia,origin,0,"",0
+origin,VA,Virginia,EFG,115271,5.02%,0.0502
+origin,VA,Virginia,MNO,154457,6.72%,0.0672
+origin,VA,Virginia,CDE,53751,2.34%,0.0234
+origin,VA,Virginia,ABC,647690,28.2%,0.282
+origin,VA,Virginia,DEF,239392,10.42%,0.1042
+origin,VA,Virginia,IJK,410374,17.86%,0.1786
+origin,VA,Virginia,FGH,321843,14.01%,0.1401
+origin,VA,Virginia,BCD,82507,3.59%,0.0359
+origin,VA,Virginia,JKL,91374,3.98%,0.0398
+origin,VA,Virginia,LMN,20443,0.89%,0.0089
+origin,VA,Virginia,GHI,17671,0.77%,0.0077
+origin,VA,Virginia,KLM,142386,6.2%,0.062
+"",VI,Virgin Islands,origin,0,"",0
+origin,VI,Virgin Islands,BCD,115,3.42%,0.0342
+origin,VI,Virgin Islands,DEF,344,10.24%,0.1024
+origin,VI,Virgin Islands,FGH,1013,30.17%,0.3017
+origin,VI,Virgin Islands,CDE,43,1.28%,0.0128
+origin,VI,Virgin Islands,EFG,77,2.29%,0.0229
+origin,VI,Virgin Islands,JKL,51,1.52%,0.0152
+origin,VI,Virgin Islands,IJK,384,11.44%,0.1144
+origin,VI,Virgin Islands,MNO,265,7.89%,0.0789
+origin,VI,Virgin Islands,GHI,20,0.6%,0.006
+origin,VI,Virgin Islands,KLM,280,8.34%,0.0834
+origin,VI,Virgin Islands,ABC,745,22.19%,0.2219
+origin,VI,Virgin Islands,LMN,21,0.63%,0.0063
+"",VT,Vermont,origin,0,"",0
+origin,VT,Vermont,FGH,10402,9.02%,0.0902
+origin,VT,Vermont,ABC,22883,19.85%,0.1985
+origin,VT,Vermont,JKL,3015,2.62%,0.0262
+origin,VT,Vermont,GHI,927,0.8%,0.008
+origin,VT,Vermont,BCD,3744,3.25%,0.0325
+origin,VT,Vermont,LMN,2349,2.04%,0.0204
+origin,VT,Vermont,CDE,6060,5.26%,0.0526
+origin,VT,Vermont,KLM,12297,10.67%,0.1067
+origin,VT,Vermont,DEF,9847,8.54%,0.0854
+origin,VT,Vermont,EFG,15443,13.4%,0.134
+origin,VT,Vermont,MNO,17629,15.29%,0.1529
+origin,VT,Vermont,IJK,10689,9.27%,0.0927
+"",WA,Washington,origin,0,"",0
+origin,WA,Washington,JKL,73923,5.05%,0.0505
+origin,WA,Washington,GHI,9859,0.67%,0.0067
+origin,WA,Washington,FGH,200440,13.69%,0.1369
+origin,WA,Washington,ABC,422152,28.84%,0.2884
+origin,WA,Washington,MNO,102461,7%,0.07
+origin,WA,Washington,CDE,33375,2.28%,0.0228
+origin,WA,Washington,DEF,115990,7.92%,0.0792
+origin,WA,Washington,EFG,76954,5.26%,0.0526
+origin,WA,Washington,LMN,16518,1.13%,0.0113
+origin,WA,Washington,IJK,254576,17.39%,0.1739
+origin,WA,Washington,KLM,96272,6.58%,0.0658
+origin,WA,Washington,BCD,61331,4.19%,0.0419
+"",WI,Wisconsin,origin,0,"",0
+origin,WI,Wisconsin,IJK,157959,13.86%,0.1386
+origin,WI,Wisconsin,BCD,45320,3.98%,0.0398
+origin,WI,Wisconsin,LMN,9952,0.87%,0.0087
+origin,WI,Wisconsin,DEF,94057,8.25%,0.0825
+origin,WI,Wisconsin,ABC,428437,37.58%,0.3758
+origin,WI,Wisconsin,KLM,67874,5.95%,0.0595
+origin,WI,Wisconsin,JKL,56561,4.96%,0.0496
+origin,WI,Wisconsin,FGH,140668,12.34%,0.1234
+origin,WI,Wisconsin,EFG,52758,4.63%,0.0463
+origin,WI,Wisconsin,MNO,65050,5.71%,0.0571
+origin,WI,Wisconsin,CDE,14748,1.29%,0.0129
+origin,WI,Wisconsin,GHI,6536,0.57%,0.0057
+"",WV,West Virginia,origin,0,"",0
+origin,WV,West Virginia,DEF,64129,10.87%,0.1087
+origin,WV,West Virginia,BCD,23963,4.06%,0.0406
+origin,WV,West Virginia,FGH,91330,15.48%,0.1548
+origin,WV,West Virginia,CDE,11066,1.88%,0.0188
+origin,WV,West Virginia,IJK,85804,14.54%,0.1454
+origin,WV,West Virginia,GHI,3525,0.6%,0.006
+origin,WV,West Virginia,EFG,31889,5.41%,0.0541
+origin,WV,West Virginia,ABC,173979,29.49%,0.2949
+origin,WV,West Virginia,JKL,22130,3.75%,0.0375
+origin,WV,West Virginia,LMN,4305,0.73%,0.0073
+origin,WV,West Virginia,KLM,34947,5.92%,0.0592
+origin,WV,West Virginia,MNO,42862,7.27%,0.0727
+"",WY,Wyoming,origin,0,"",0
+origin,WY,Wyoming,KLM,16163,12.98%,0.1298
+origin,WY,Wyoming,LMN,2774,2.23%,0.0223
+origin,WY,Wyoming,CDE,6123,4.92%,0.0492
+origin,WY,Wyoming,MNO,19430,15.6%,0.156
+origin,WY,Wyoming,JKL,3292,2.64%,0.0264
+origin,WY,Wyoming,FGH,8361,6.72%,0.0672
+origin,WY,Wyoming,ABC,24882,19.98%,0.1998
+origin,WY,Wyoming,GHI,668,0.54%,0.0054
+origin,WY,Wyoming,DEF,9684,7.78%,0.0778
+origin,WY,Wyoming,EFG,15687,12.6%,0.126
+origin,WY,Wyoming,IJK,13454,10.81%,0.1081
+origin,WY,Wyoming,BCD,3994,3.21%,0.0321
