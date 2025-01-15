@@ -12,7 +12,21 @@ For more information, visit [benjaminbarlow.com](http://benjaminbarlow.com/) or 
 
 ## d3_projects Structure
 
-Each folder is an individual D3 project named according to the functionality being explored. Each D3 project will have an `index.html` file and a `d3.js` file. Often, it will also include a `data` folder containing the CSV file(s) used in the `d3.js` file. Maybe I'll get fancy at some point and start adding a CSS file.
+Each folder is an individual D3 project named according to the functionality/chart being explored. Each D3 project will have an `index.html` file and a data file.
+
+I have developed a mechanism that appears wholly unique in the world of D3 development where a local file can be chosen to render in a D3 chart. This has the below advantages.
+
+- Easily sharable
+  - Share the index.html and data file with anyone with a browser. They can open the index.html and then choose the data file and have the data rendered for them.
+
+- Easily test different data
+  - Columns can't change, but data does. Using several different data files might uncover an unexpected chart situations where a <text> element doesn't fit or any number of scenarios that should be uncovered in testing variable data.
+ 
+- Easy to rapidly prototype D3 cahrts
+  - These are single html files with no js or css dependencies. It's all in one place.
+
+- Avoid issues connecting to remote data sources
+  - It's your local files. You won't encounter CORS Policy errors.
 
 ## Goals for the Project
 
@@ -20,7 +34,7 @@ It is my hope that this journey builds experience in D3 and produces template co
 
 # Project Screenshots
 
-## self_contained_treemap
+**/self_contained_treemap**
 
 <img src="self_contained_treemap/screenshot.png" alt="A D3 Treemap" width="300" height=auto>
 
