@@ -4,9 +4,11 @@ This is a (*nearly*) complete D3 project.
 
 This hasn't been tested in non-chromium browsers.
 
-# Screenshot
+# Screenshot and Demo
 
 <img src="screenshot.png" alt="A D3 Treemap" width="300" height=auto>
+
+<img src="treemap_demo.gif" alt="A D3 Treemap Demo" width="600" height=auto>
 
 # Needs Enhancements
 
