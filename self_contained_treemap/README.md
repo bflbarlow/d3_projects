@@ -4,6 +4,10 @@ This is a (*nearly*) complete D3 project.
 
 This hasn't been tested in non-chromium browsers.
 
+# Screenshot
+
+![A Treemap built in D3 using dummy data](screenshot.png)
+
 # Needs Enhancements
 
 -  Hover Effects for the <rect> elements do not register when hoving over <text> elements.
