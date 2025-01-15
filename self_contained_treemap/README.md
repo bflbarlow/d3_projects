@@ -16,10 +16,10 @@ This hasn't been tested in non-chromium browsers.
   - This is also weird... if the hover effect for the <rect> breaks on the entire area of <text> element then why does the hover on the <text> element then get more specific to the text itself on the not the whole area?
 
 - Transitions
- - Not going to lie, the filtering transition after selecting a state is awesome.
- - Unfortunately, the transition breaks with the hover effects.
- - Since the state filter often goes overtop the chart, after making a selection, the hover effect immediately takes action breaking the transition that is in action.
+  - Not going to lie, the filtering transition after selecting a state is awesome.
+  - Unfortunately, the transition breaks with the hover effects.
+  - Since the state filter often goes overtop the chart, after making a selection, the hover effect immediately takes action breaking the transition that is in action.
 
 - Hover Effect on Light Colors
- - I'm not sure I *want* to fix this. I like how it looks today.
- - However, it *might* look better if the whiter smaller squares didn't have as signifcant color change... maybe.
+  - I'm not sure I *want* to fix this. I like how it looks today.
+  - However, it *might* look better if the whiter smaller squares didn't have as signifcant color change... maybe.
