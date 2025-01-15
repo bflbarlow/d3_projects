@@ -22,11 +22,11 @@ I have developed a mechanism that appears wholly unique in the world of D3 devel
 - Easily test different data
   - Columns can't change, but data does. Using several different data files might uncover an unexpected chart situation where a `<text>` element doesn't fit or any number of other chart rendering scenarios that should be uncovered in testing variable data.
  
-- Easy to rapidly prototype D3 cahrts
+- Easy to rapidly prototype D3 charts
   - These are single html files with no js or css dependencies. It's all in one place.
 
 - Avoid issues connecting to remote data sources
-  - It's your local files. You won't encounter CORS Policy errors.
+  - It's your *local* data file. You won't encounter CORS Policy errors.
 
 ## Goals for the Project
 
