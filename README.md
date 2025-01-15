@@ -14,7 +14,7 @@ For more information, visit [benjaminbarlow.com](http://benjaminbarlow.com/) or 
 
 Each folder is an individual D3 project named according to the functionality/chart being explored. Each D3 project will have an `index.html` file and a data file.
 
-I have developed a mechanism that appears wholly unique in the world of D3 development where a local file can be chosen to render in a D3 chart. This has the below advantages.
+I have developed a mechanism that appears wholly unique in the world of D3 development where a local file can be chosen to render in a D3 chart by the user in the browser. Essentially, open the `index.html` file in a browser and on the resulting page, select the file in the "Choose File" box. This has the below advantages.
 
 - Easily sharable
   - Share the index.html and data file with anyone with a browser. They can open the index.html and then choose the data file and have the data rendered for them.
