@@ -6,7 +6,7 @@ This hasn't been tested in non-chromium browsers.
 
 # Screenshot
 
-![A Treemap built in D3 using dummy data](screenshot.png)
+<img src="screenshot.png" alt="A D3 Treemap" width="200" height=auto>
 
 # Needs Enhancements
 
