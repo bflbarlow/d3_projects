@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D3 Test File Upload</title>
+    <style type="text/css">
+      
+      select {
+        /* Reset Select */
+        appearance: none;
+        outline: 10px #009999;
+        border: 0;
+        box-shadow: none;
+        /* Personalize */
+        flex: 1;
+        padding: 0 1em;
+        color: #fff;
+        background-color: #009999;
+        background-image: none;
+        cursor: pointer;
+      }
+
+      select::-webkit-scrollbar {
+        width: 10px;
+      }
+
+      select::-webkit-scrollbar-track {
+        background: #008080;
+      }
+
+      select::-webkit-scrollbar-thumb {
+        background-color: white;
+        border-radius: 20px;
+        border: 3px solid white;
+      }
+
+      select::-ms-expand {
+        display: none;
+      }
+
+      .select {
+        position: relative;
+        display: flex;
+        width: 17em;
+        height: 3em;
+        border-radius: .25em;
+        overflow: hidden;
+      }
+      
+      option {
+        font-weight: 700;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>D3 Treemap Test File Upload</h1>
+    <p>Upload a treemap csv file and see that file rendered in a D3 treemap.</p>
+    <p>The csv requires the below columns.</p>
+    <ul>
+      <li>parent</li>
+      <li>state</li>
+      <li>category</li>
+      <li>number</li>
+      <li>state_percentage_label</li>
+      <li>state_percentage</li>
+    </ul>
+    <br>
+    <!-- I use a background color to see entire size of the div--> 
+    <div id="data_viz_area_wrapper" style="display:block; background-color: lightblue; height: auto; width: 70%; float: left; padding: 10px 10px 10px 10px; max-width: 600px;">
+      <div id="data_viz_area" style="background-color: white;">
+        <div style="height: 20px;"></div>
+        <select class="select" id="selectButton" style="margin: 0 0 0 30px;"></select>
+      </div>
+    </div>
+    <div id="data_viz_total" style="display:block; background-color: lightblue; height: auto; padding: 10px 0 10px 0; width: 200px; float: left;"></div>
+    <div style="height: 10px;display: block;clear: both;"></div>
+    <input type="file" id="fileInput" title="" style="display: block; clear: both;"/>
+    <pre id="output"></pre>
+    <script>
+        var p_total = document.createElement("p");
+        p_total.id = 'p_total'
+        document.getElementById('data_viz_total').append(p_total);
+
+        document.getElementById('fileInput').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+
+                reader.onload = function(e) {
+                    const content = e.target.result;
+                    document.getElementById('output').innerText = content;
+
+                    const rect_state_percentage_hover_limit = 0.12;
+                    const rect_width_text_display_limit = 50;
+                    const rect_percentage_text_display_limit = 0.02;
+
+                    var tooltip = d3.select("body")
+                        .append("div")
+                        .style("position", "absolute")
+                        .style("visibility", "hidden")
+                        .style("background-color", "white")
+                        .style("border", "solid")
+                        .style("border-width", "1px")
+                        .style("border-radius", "5px")
+                        .style("padding", "10px")
+                        .style("font-weight", 500)
+                        .style("font-family","Arial");
+
+                      var margin = {top: 20, right: 20, bottom: 20, left: 20},
+                          max_width = 400,
+                          max_height = 400,
+                          width = max_width - margin.left - margin.right,
+                          height = max_height - margin.top - margin.bottom;
+
+                      var obj = d3.csvParse(content);
+                    
+                      const distinct_states = new Set(obj.map(d => d.state));
+                  
+                      d3.select("#selectButton")
+                        .selectAll('myOptions')
+                        .data(distinct_states)
+                        .enter()
+                        .append('option')
+                          .text(function (d) { return d; }) 
+                          .attr("value", function (d) { return d; }) 
+                    
+                      var data_viz_area = 
+                        d3.select("#data_viz_area")
+                          .append("svg")
+                            .attr("viewBox", `0 0 `+max_width+' '+max_height)
+                          .append("g")
+                            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+                    
+                      const obj_start = obj.filter(function(d){return d.state=="All"});
+                      var max = d3.max(obj_start, function(d) { return +d.state_percentage;} );
+                    
+                      function function_name(d){ return d.data.category};
+                      function function_label(d){ return d.data.state_percentage_label};
+                      function function_pct(d){ return d.data.state_percentage};
+
+                      var myColor = d3.scaleLinear()
+                        .range(["white", "#009999"])
+                        .domain([0,max]);
+                    
+                      const root = 
+                        d3.stratify()
+                          .id(function(d) { return d.category; })
+                          .parentId(function(d) { return d.parent; }) 
+                          (obj_start);
+
+                      root.sum(function(d) { return +d.state_percentage }); 
+                      root.sort((a, b) => b.data.state_percentage - a.data.state_percentage);
+                    
+                      d3.treemap()
+                        .size([width, height])
+                        .padding(1)
+                        (root)
+                  
+                      data_viz_area
+                        .selectAll("rect")
+                        .data(root.leaves())
+                        .join("rect")
+                          .attr('x', function (d) { return d.x0; })
+                          .attr('y', function (d) { return d.y0; })
+                          .attr('width', function (d) { return d.x1 - d.x0; })
+                          .attr('height', function (d) { return d.y1 - d.y0; })
+                          .style("stroke", "white")
+                          .style("fill", function(d) { return myColor(+d.data.state_percentage)} )
+                          .on('mouseover', function (d, i) {
+                            d3.select(this).transition()
+                              .duration('50')
+                              .style("fill", function(d) { if(+d.data.state_percentage < rect_state_percentage_hover_limit) return myColor(+d.data.state_percentage+0.1); else return myColor(d.data.state_percentage)} )
+                              .attr('opacity', '0.75')
+                              .style("stroke","rgb(0, 128, 128)")
+                              .style("stroke-width","0.5")
+                            tooltip.style("visibility", "visible")
+                          })
+                          .on("mousemove", function(event,d) {return tooltip.style("top", (event.pageY+20)+"px").style("left",(event.pageX+20)+"px").html("<strong>"+function_name(d)+"</strong>: "+addCommas(d.data.number)+" Number ("+function_label(d)+")")})
+                          .on('mouseout', function (d, i) {
+                               d3.select(this).transition()
+                                    .duration('50')
+                                    .attr('opacity', '1')
+                                    .style("fill", function(d) { return myColor(+d.data.state_percentage)} )
+                                    .style("stroke", "white")
+                                    tooltip.style("visibility", "hidden")
+                          })
+
+                        data_viz_area
+                          .selectAll("text")
+                          .data(root.leaves())
+                          .join("text")
+                            .attr("id", function(d){ return d.data.category })
+                            .attr("x", function(d){ return d.x0+(d.x1 - d.x0)/2 })
+                            .attr("y", function(d){ return (d.y0+(d.y1 - d.y0)/2)-2 })
+                            .html(function(d){ 
+                                  if(d.x1 - d.x0 < rect_width_text_display_limit || +d.data.state_percentage < rect_percentage_text_display_limit) return '';
+                                  else  
+                                    var x = d3.select(this).attr("x");
+                                    var y = d3.select(this).attr("dy");
+                                    var t = "<tspan x="+x+" dy="+(+y+10)+">"+function_label(d)+"</tspan>";
+                                    return "<tspan font-weight=\"600\">" + function_name(d) + "</tspan>" + t;//appending it to the html
+                            })                        
+                            .on('mouseover', function (d, i) { tooltip.style("visibility", "visible") })
+                            .on("mousemove", function(event,d) {return tooltip.style("top", (event.pageY+20)+"px").style("left",(event.pageX+20)+"px").html("<strong>"+function_name(d)+"</strong>: "+addCommas(d.data.number)+" Number ("+function_label(d)+")")})
+                            .on('mouseout', function (d, i) { tooltip.style("visibility", "hidden") })
+                            .attr("font-size", "10px")
+                            .attr("fill", "black")
+                            .attr("text-anchor", "middle")
+                            .attr("font-family","Arial");
+                  
+                        function update(selectedGroup) { 
+                      
+                          const obj_filter = obj.filter(function(d){return d.state==selectedGroup});
+                      
+                          var max = d3.max(obj_filter, function(d) { return +d.state_percentage;} );
+                      
+                          var myColor = d3.scaleLinear()
+                          .range(["white", "#009999"])
+                            .domain([0,max]);
+
+                          const root = d3.stratify()
+                            .id(function(d) { return d.category; })
+                            .parentId(function(d) { return d.parent; })
+                            (obj_filter);
+                          root.sum(function(d) { return +d.state_percentage });
+                          root.sort((a, b) => b.data.state_percentage - a.data.state_percentage);
+                      
+                          d3.treemap()
+                            .size([width, height])
+                            .padding(1)
+                            (root)
+
+                          function function_name(d){ return d.data.category};
+                          function function_label(d){ return d.data.state_percentage_label};
+                    
+                          data_viz_area
+                            .selectAll("rect")
+                            .data(root.leaves())
+                            .join("rect")
+                              .attr('x', function (d) { return d.x0; })
+                              .attr('y', function (d) { return d.y0; })
+                              .attr('width', function (d) { return d.x1 - d.x0; })
+                              .attr('height', function (d) { return d.y1 - d.y0; })
+                              .style("stroke", "white")
+                              .style("fill", function(d) { return myColor(+d.data.state_percentage)} )
+                              .on('mouseover', function (d, i) {
+                                d3.select(this).transition()
+                                  .duration('50')
+                                  .style("fill", function(d) { if(+d.data.state_percentage < rect_state_percentage_hover_limit) return myColor(+d.data.state_percentage+0.1); else return myColor(d.data.state_percentage)} )
+                                  .attr('opacity', '0.75')
+                                  .style("stroke","rgb(0, 128, 128)")
+                                  .style("stroke-width","0.5")
+                                tooltip.style("visibility", "visible")
+                              })
+                              .on("mousemove", function(event,d) {return tooltip.style("top", (event.pageY+20)+"px").style("left",(event.pageX+20)+"px").html("<strong>"+function_name(d)+"</strong>: "+addCommas(d.data.number)+" Number ("+function_label(d)+")")})
+                              .on('mouseout', function (d, i) {
+                                   d3.select(this).transition()
+                                        .duration('50')
+                                        .attr('opacity', '1')
+                                        .style("fill", function(d) { return myColor(+d.data.state_percentage)} )
+                                        .style("stroke", "white")
+                                        tooltip.style("visibility", "hidden")
+                              })
+                      
+                              data_viz_area
+                                .selectAll("text")
+                                .data(root.leaves())
+                                .join("text")
+                                  .attr("id", function(d){ return d.data.category })
+                                  .attr("x", function(d){ return d.x0+(d.x1 - d.x0)/2 })
+                                  .attr("y", function(d){ return (d.y0+(d.y1 - d.y0)/2)-2 })
+                                  .html(function(d){ 
+                                        if(d.x1 - d.x0 < rect_width_text_display_limit || +d.data.state_percentage < rect_percentage_text_display_limit) return '';
+                                        else  
+                                          var x = d3.select(this).attr("x");
+                                          var y = d3.select(this).attr("dy");
+                                          var t = "<tspan x="+x+" dy="+(+y+10)+">"+function_label(d)+"</tspan>";
+                                          return "<tspan font-weight=\"600\">" + function_name(d) + "</tspan>" + t;//appending it to the html
+                                  })                        
+                                  .on('mouseover', function (d, i) { tooltip.style("visibility", "visible") })
+                                  .on("mousemove", function(event,d) {return tooltip.style("top", (event.pageY+20)+"px").style("left",(event.pageX+20)+"px").html("<strong>"+function_name(d)+"</strong>: "+addCommas(d.data.number)+" Number ("+function_label(d)+")")})
+                                  .on('mouseout', function (d, i) { tooltip.style("visibility", "hidden") })
+                                  .attr("font-size", "10px")
+                                  .attr("fill", "black")
+                                  .attr("text-anchor", "middle")
+                                  .attr("font-family","Arial");
+                    
+                        };
+                    
+                        d3.select("#selectButton").on("change", function(event,d) {
+                            const selectedOption = d3.select(this).property("value")
+                            update(selectedOption);
+                        });
+                    
+                      //COUNT
+                      document.getElementById('p_total').innerHTML = "Total CSV Records: "+Object.keys(obj).length;
+                      document.getElementById('p_total').setAttribute("style","text-align:center;");
+                      //END COUNT
+
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        function addCommas(num) {
+          return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,');
+        }
+
+    </script>
+    <script src="https://d3js.org/d3.v7.js"></script>
+  </body>
+</html>
