@@ -20,7 +20,7 @@ I have developed a mechanism that appears wholly unique in the world of D3 devel
   - Share the `index.html` and data file with anyone with a browser. They can open the `index.html` and then choose the data file and have the data rendered for them.
 
 - Easily test different data
-  - Columns can't change, but data does. Using several different data files might uncover an unexpected chart situations where a `<text>` element doesn't fit or any number of chart rendering scenarios that should be uncovered in testing variable data.
+  - Columns can't change, but data does. Using several different data files might uncover an unexpected chart situation where a `<text>` element doesn't fit or any number of other chart rendering scenarios that should be uncovered in testing variable data.
  
 - Easy to rapidly prototype D3 cahrts
   - These are single html files with no js or css dependencies. It's all in one place.
