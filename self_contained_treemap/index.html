@@ -48,7 +48,7 @@
         border-radius: .25em;
         overflow: hidden;
       }
-      
+
       option {
         font-weight: 700;
       }
@@ -96,6 +96,7 @@
                     const rect_state_percentage_hover_limit = 0.12;
                     const rect_width_text_display_limit = 50;
                     const rect_percentage_text_display_limit = 0.02;
+                    const rect_max_color = "#009999";
 
                     var tooltip = d3.select("body")
                         .append("div")
@@ -142,7 +143,7 @@
                       function function_pct(d){ return d.data.state_percentage};
 
                       var myColor = d3.scaleLinear()
-                        .range(["white", "#009999"])
+                        .range(["white", rect_max_color])
                         .domain([0,max]);
                     
                       const root = 
@@ -218,7 +219,7 @@
                           var max = d3.max(obj_filter, function(d) { return +d.state_percentage;} );
                       
                           var myColor = d3.scaleLinear()
-                          .range(["white", "#009999"])
+                          .range(["white", rect_max_color])
                             .domain([0,max]);
 
                           const root = d3.stratify()
