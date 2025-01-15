@@ -18,6 +18,11 @@ Each folder is an individual D3 project named according to the functionality bei
 
 It is my hope that this journey builds experience in D3 and produces template code that can be reused for future D3 development.
 
+# Project Screenshots
+
+##self_contained_treemap
+<img src="screenshot.png" alt="A D3 Treemap" width="300" height=auto>
+
 ## My Development Environment
 
 I feel like most resources teaching D3 overcomplicate the core concepts of development. On this journey, I’ll be limiting myself to HTML, JavaScript, CSS, and CSV files. I aim to avoid using Python, local web servers, or anything else that adds unnecessary complexity. I’ve always subscribed to K.I.S.S. (*Keep It Simple, Stupid*), and that’s the approach I’m taking here: simplicity.
