@@ -6,7 +6,7 @@ This hasn't been tested in non-chromium browsers.
 
 # Screenshot
 
-<img src="screenshot.png" alt="A D3 Treemap" width="200" height=auto>
+<img src="screenshot.png" alt="A D3 Treemap" width="300" height=auto>
 
 # Needs Enhancements
 
